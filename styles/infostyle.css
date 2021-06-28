@@ -1,0 +1,128 @@
+.statePart{
+	height: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 150px;
+	display: flex;
+}
+
+.textP{
+	flex: 5;
+	display: flex;
+	flex-direction: column;
+}
+
+.photoP{
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.titleMain{
+	font-family: Muller;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 115%;
+	/* identical to box height, or 74px */
+	letter-spacing: 0.025em;
+
+	margin-bottom: 30px;
+	margin-top: 50px;
+
+	/* 1 */
+	color: #393939;
+}
+
+.title{
+	font-family: Muller;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 115%;
+	/* or 41px */
+
+	letter-spacing: 0.025em;
+
+	margin-bottom: 30px;
+	margin-top: 50px;
+
+	/* 1 */
+
+	color: #393939;
+
+}
+
+.textI{
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 115%;
+	/* or 21px */
+
+	color: #000000;
+}
+
+.descrption{
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 115%;
+	/* identical to box height, or 21px */
+
+
+	color: #000000;
+}
+
+.photoBox{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.factsBox{	
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.nameF{
+	text-align: left;
+	flex: 1;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 115%;
+	/* or 18px */
+
+
+	color: #000000;
+}
+
+.fact{
+	display: flex;
+	margin-top: 10px;
+}
+
+.resultF{
+	text-align: left;	
+	flex: 1;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 115%;
+	/* or 18px */
+
+
+	color: #000000;
+
+}
